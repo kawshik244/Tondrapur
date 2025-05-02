@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{c0551087-d5d9-4355-ac67-c491778ea66b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spotLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="directionLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drawCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cafe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flyer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maryGoRound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="circularRide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphereWithTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ferrisWheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="train.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fs" />
+    <None Include="fragmentShaderForGouraudShading.fs" />
+    <None Include="fragmentShaderForPhongShading.fs" />
+    <None Include="vertexShader.vs" />
+    <None Include="vertexShaderForGouraudShading.vs" />
+    <None Include="vertexShaderForPhongShading.vs" />
+    <None Include="vertexShaderForPhongShadingWithTexture.vs" />
+    <None Include="fragmentShaderForPhongShadingWithTexture.fs" />
+    <None Include="skybox.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\darel\Downloads\grass.jpg">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="back1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bottom1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="front1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="left1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="right1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="back.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bottom.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="front.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="left.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="right.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
