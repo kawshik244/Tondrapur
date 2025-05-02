@@ -94,7 +94,7 @@ An interactive OpenGL-based simulation of a colorful and dynamic **village fair*
 
 ## ⚙️ Technical Highlights
 
-- Implemented with **OpenGL and GLUT**.
+- Implemented with **OpenGL**.
 - Used **Bezier curves** for smooth motion paths.
 - Performance optimized for real-time rendering.
 
